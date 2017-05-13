@@ -1,0 +1,68 @@
+_include('/modules/layout/header/index.html',{"title":"vkitty官网"})
+_include('./index.less?_ac=less_csstag')
+<div class="wrapper">
+    <div class="m-header">
+        <div id="navbar" class="collapse navbar-collapse mwidth">
+            <div class="brand">vkitty.org</div>
+            <ul class="nav navbar-nav">
+                <li><a href="/index/index.html">首页</a></li>
+                <li><a href="docs/">中文文档</a></li>
+                <li><a href="docs/getting-started/">入门指南</a></li>
+                <li><a href="docs/writing-a-plugin/">插件开发</a></li>
+                <!--<li><a href="docs/faq/">常见问题</a></li>-->
+                <li><a href="docs/recipes/">使用技巧</a></li>
+            </ul>
+        </div>
+        <div class="content mwidth">
+            <img src='_include("./images/logo.png?_ac=cdn",{"url":"#cdnurl#;/index/images/logo.png?v=123"})' class="logo"/>
+            <div class="desc">语义化\灵活\高效,前端自动构建的新方式</div>
+        </div>
+    </div>
+    <div class="m-content mwidth clearfix" style="width: 900px;">
+        <div class="row" style="margin-top: 30px;">
+            <div class="item col-xs-3">
+                <h2 class="title">简单</h2>
+                <div class="text-muted">
+                    已经学会gulp？即刻阅读使用指南完成前端构建。
+                </div>
+            </div>
+            <div class="col-xs-1"></div>
+            <div class="item col-xs-3">
+                <h2 class="title">灵活</h2>
+                <div class="text-muted">
+                   参数式指定打包loaders，让一个文件产生千变万化结果。
+                </div>
+            </div>
+            <div class="col-xs-1"></div>
+            <div class="item col-xs-4">
+                <h2 class="title">高效</h2>
+                <div class="text-muted">
+                    反编译？精准构建活动文件，再大的工程也能从容的完成！
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 30px;">
+            <div class="item col-xs-3">
+                <h2 class="title">语义化</h2>
+                <div class="text-muted">
+                    _include，require完成各个文件组合，代码维护一目了然。
+                </div>
+            </div>
+            <div class="col-xs-1"></div>
+            <div class="item col-xs-3">
+                <h2 class="title">海量插件</h2>
+                <div class="text-muted">
+                    强大插件支持，并且强力支持gulp插件，海量了!
+                </div>
+            </div>
+            <div class="col-xs-1"></div>
+            <div class="item col-xs-3">
+                <h2 class="title"></h2>
+                <div class="text-muted">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="m-footer text-muted mwidth text-center" style="margin-top: 100px;">@ vkitty.org</div>
+</div>
+_include('/modules/layout/footer/index.html')

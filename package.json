@@ -1,0 +1,14 @@
+{
+  "name": "vkittyorg",
+  "scripts": {
+    "start": "gulp start;",
+    "dev": "gulp dev;",
+    "prod": "gulp prod;"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "node-static": "^0.7.9",
+    "vinyl-fs": "^2.4.4",
+    "vkitty": "0.1.0"
+  }
+}

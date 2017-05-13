@@ -1,0 +1,58 @@
+@pageWidth:1000px;
+
+html,body{
+    height: 100%;
+}
+
+
+
+.mwidth{
+    width: @pageWidth;
+    margin:auto;
+}
+
+.m-header{
+    height: 500px;
+    color: #fff;
+    background-image: -webkit-radial-gradient(10% 0, farthest-side ellipse, #154265 20%, #7392c2);
+    #navbar{
+        a{
+            color: #fff;
+        }
+
+        a:hover{
+            color: #23527c !important;
+        }
+
+        .brand{
+            float: left;
+            height: 50px;
+            padding: 15px 15px;
+            font-size: 18px;
+            line-height: 20px;
+        }
+        .nav{
+            float: right;
+        }
+    }
+
+    .content{
+        position: relative;
+        height:450px;
+        .logo{
+            position: absolute;
+            left: 50%;
+            top:150px;
+            width: 250px;
+            -webkit-transform: translate(-50%,0);
+        }
+        .desc{
+            position: absolute;
+            top:300px;
+            text-align: center;
+            width: 100%;
+            font-size: 18px;
+        }
+    }
+
+}
