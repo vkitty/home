@@ -14,10 +14,10 @@ gulp.task('dev',function(){
 
 gulp.task('prod',function(){
     loaders.beforeCompile =  function(content){
-        content = content.replace(/#cdnurl#/,"../static");
+        content = content.replace(/#cdnurl#/,"");
         return content;
     };
     kitty.src('./pages/*/*.html')
         .pipe(kitty.dest('./build/pages'))
-        .pipe(kitty.cdnDest('./build/pages/static'))
+        .pipe(kitty.cdnDest('./build/pages/index/images'))
 });
