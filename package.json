@@ -7,8 +7,6 @@
   },
   "dependencies": {
     "gulp": "3.9.1",
-    "node-static": "0.7.9",
-    "vinyl-fs": "2.4.4",
     "kitty-serve": "0.1.0",
     "vkitty": "0.1.3"
   }
